@@ -1,14 +1,14 @@
 # Online Reference Snapshot Audit
 
 - Status: **CRITICAL**
-- Generated: `2026-06-14T05:30:09+00:00`
+- Generated: `2026-06-14T05:55:50+00:00`
 - Files: 6902
 - Deterministic errors: 2
 - Deterministic warnings: 26
 
 ## Deterministic Findings
 
-- **ERROR** `incomplete_crawl` `/Users/muhammadsabir/Downloads/examples_rag_platform/generated_repositories/aspose-pdf-api-reference-markdown/manifests/net.json`: Manifest status is 'partial'.
+- **ERROR** `incomplete_crawl` `manifests/net.json`: Manifest status is 'partial'.
 - **ERROR** `crawl_failure` `https://reference.aspose.com/pdf/net/aspose.pdf/pdfasymbolicfontencodingstrategy.queueitem/`: Failed to download https://reference.aspose.com/pdf/net/aspose.pdf/pdfasymbolicfontencodingstrategy.queueitem/.ctor/: 404 Client Error: Not Found for url: https://reference.aspose.com/pdf/net/aspose.pdf/pdfasymbolicfontencodingstrategy.queueitem/.ctor/
 - **WARNING** `partial_generated_file` `content/en/net/aspose.pdf/pdfasymbolicfontencodingstrategy.queueitem/_index.md`: Generated file exists outside a completed type record.
 - **WARNING** `source_replacement_character` `content/en/net/aspose.pdf.annotations/caretannotation/_index.md`: The online source contains a Unicode replacement character.

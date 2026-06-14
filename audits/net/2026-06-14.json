@@ -48318,7 +48318,7 @@
   "findings": [
     {
       "code": "incomplete_crawl",
-      "file": "/Users/muhammadsabir/Downloads/examples_rag_platform/generated_repositories/aspose-pdf-api-reference-markdown/manifests/net.json",
+      "file": "manifests/net.json",
       "message": "Manifest status is 'partial'.",
       "severity": "error"
     },
@@ -48485,8 +48485,8 @@
       "severity": "warning"
     }
   ],
-  "generated_at": "2026-06-14T05:30:09+00:00",
-  "manifest": "/Users/muhammadsabir/Downloads/examples_rag_platform/generated_repositories/aspose-pdf-api-reference-markdown/manifests/net.json",
+  "generated_at": "2026-06-14T05:55:50+00:00",
+  "manifest": "manifests/net.json",
   "schema_version": 1,
   "status": "critical",
   "summary": {

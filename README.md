@@ -1,6 +1,7 @@
-# Aspose.PDF API Reference Markdown
+# Aspose.PDF for .NET API Reference Markdown
 
-Generated Markdown snapshots of the official Aspose.PDF online API reference.
+Generated Markdown snapshots of the official Aspose.PDF for
+.NET online API reference.
 
 ## Authority
 
