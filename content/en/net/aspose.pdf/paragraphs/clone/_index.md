@@ -1,0 +1,27 @@
+---
+title: "Paragraphs.Clone"
+second_title: "Aspose.PDF for .NET API Reference"
+description: "Paragraphs method. Clones a new Clone object"
+type: docs
+url: "/net/aspose.pdf/paragraphs/clone/"
+source_url: "https://reference.aspose.com/pdf/net/aspose.pdf/paragraphs/clone/"
+generated_from: "online-reference"
+fetched_at: "2026-06-14T05:05:50+00:00"
+---
+## Paragraphs.Clone method {#paragraphsclone-method}
+
+Clones a new `Clone` object.
+
+```csharp
+public object Clone()
+```
+
+### Return Value {#return-value}
+
+The new `Clone` object.
+
+### See Also {#see-also}
+
+* class [Paragraphs](../)
+* namespace [Aspose.Pdf](../../../aspose.pdf/)
+* assembly [Aspose.PDF](../../../)

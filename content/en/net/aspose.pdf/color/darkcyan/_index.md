@@ -1,0 +1,27 @@
+---
+title: "Color.DarkCyan"
+second_title: "Aspose.PDF for .NET API Reference"
+description: "Color property. Gets a systemdefined color that has an ARGB value of c FF008B8B"
+type: docs
+url: "/net/aspose.pdf/color/darkcyan/"
+source_url: "https://reference.aspose.com/pdf/net/aspose.pdf/color/darkcyan/"
+generated_from: "online-reference"
+fetched_at: "2026-06-14T04:51:12+00:00"
+---
+## Color.DarkCyan property {#colordarkcyan-property}
+
+Gets a system-defined color that has an ARGB value of \c #FF008B8B.
+
+```csharp
+public static Color DarkCyan { get; }
+```
+
+### Return Value {#return-value}
+
+A representing a system-defined color.
+
+### See Also {#see-also}
+
+* class [Color](../)
+* namespace [Aspose.Pdf](../../../aspose.pdf/)
+* assembly [Aspose.PDF](../../../)

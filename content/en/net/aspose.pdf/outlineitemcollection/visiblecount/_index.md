@@ -1,0 +1,23 @@
+---
+title: "OutlineItemCollection.VisibleCount"
+second_title: "Aspose.PDF for .NET API Reference"
+description: "OutlineItemCollection property. Gets the total number of outline items at all levels in the document outline hierarchy"
+type: docs
+url: "/net/aspose.pdf/outlineitemcollection/visiblecount/"
+source_url: "https://reference.aspose.com/pdf/net/aspose.pdf/outlineitemcollection/visiblecount/"
+generated_from: "online-reference"
+fetched_at: "2026-06-14T05:03:13+00:00"
+---
+## OutlineItemCollection.VisibleCount property {#outlineitemcollectionvisiblecount-property}
+
+Gets the total number of outline items at all levels in the document outline hierarchy.
+
+```csharp
+public override int VisibleCount { get; }
+```
+
+### See Also {#see-also}
+
+* class [OutlineItemCollection](../)
+* namespace [Aspose.Pdf](../../../aspose.pdf/)
+* assembly [Aspose.PDF](../../../)

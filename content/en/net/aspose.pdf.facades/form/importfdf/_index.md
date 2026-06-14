@@ -1,0 +1,35 @@
+---
+title: "Form.ImportFdf"
+second_title: "Aspose.PDF for .NET API Reference"
+description: "Form method. Imports the content of the fields from the fdf file and put them into the new pdf"
+type: docs
+url: "/net/aspose.pdf.facades/form/importfdf/"
+source_url: "https://reference.aspose.com/pdf/net/aspose.pdf.facades/form/importfdf/"
+generated_from: "online-reference"
+fetched_at: "2026-06-14T04:12:54+00:00"
+---
+## Form.ImportFdf method {#formimportfdf-method}
+
+Imports the content of the fields from the fdf file and put them into the new pdf.
+
+```csharp
+public void ImportFdf(Stream inputFdfStream)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| inputFdfStream | Stream | The input fdf stream. |
+
+## Examples {#examples}
+
+```csharp
+Form form = new Form("PdfForm.pdf", "PdfForm_imported.pdf");
+form.ImportFdf(new FileStream("data.fdf", FileMode.Open, FileAccess.Read));
+form.Save();
+```
+
+### See Also {#see-also}
+
+* class [Form](../)
+* namespace [Aspose.Pdf.Facades](../../../aspose.pdf.facades/)
+* assembly [Aspose.PDF](../../../)

@@ -1,0 +1,35 @@
+---
+title: "Page.IsBlank"
+second_title: "Aspose.PDF for .NET API Reference"
+description: "Page method. Gets the flag whether page is blank or not"
+type: docs
+url: "/net/aspose.pdf/page/isblank/"
+source_url: "https://reference.aspose.com/pdf/net/aspose.pdf/page/isblank/"
+generated_from: "online-reference"
+fetched_at: "2026-06-14T05:04:03+00:00"
+---
+## Page.IsBlank method {#pageisblank-method}
+
+Gets the flag whether page is blank or not.
+
+```csharp
+public bool IsBlank(double fillThresholdFactor)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fillThresholdFactor | Double | The fill threshold value that manages the sensitivity of detection. Should be in range [0..1). |
+
+### Return Value {#return-value}
+
+True - if page is blank; otherwise, false.
+
+## Remarks {#remarks}
+
+To determine whether a page is empty or not, the ratio of the filled space to the total space of the page is calculated. This ratio is compared with the fillThresholdFactor parameter and if it is less, the page is considered empty.
+
+### See Also {#see-also}
+
+* class [Page](../)
+* namespace [Aspose.Pdf](../../../aspose.pdf/)
+* assembly [Aspose.PDF](../../../)

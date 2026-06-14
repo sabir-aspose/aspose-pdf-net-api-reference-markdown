@@ -1,0 +1,157 @@
+---
+title: "PdfFileEditor.Append"
+second_title: "Aspose.PDF for .NET API Reference"
+description: "PdfFileEditor method. Appends pages which are chosen from array of documents in portStreams. The result document includes firstInputFile and all portStreams documents pages in the range startPage to endPage"
+type: docs
+url: "/net/aspose.pdf.facades/pdffileeditor/append/"
+source_url: "https://reference.aspose.com/pdf/net/aspose.pdf.facades/pdffileeditor/append/"
+generated_from: "online-reference"
+fetched_at: "2026-06-14T04:16:05+00:00"
+---
+## Append(Stream, Stream[], int, int, Stream) {#append_1}
+
+Appends pages, which are chosen from array of documents in portStreams. The result document includes firstInputFile and all portStreams documents pages in the range startPage to endPage.
+
+```csharp
+public bool Append(Stream inputStream, Stream[] portStreams, int startPage, int endPage, 
+    Stream outputStream)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| inputStream | Stream | Input Pdf stream. |
+| portStreams | Stream[] | Documents to copy pages from. |
+| startPage | Int32 | Page starts in portStreams documents. |
+| endPage | Int32 | Page ends in portStreams documents . |
+| outputStream | Stream | Output Pdf stream. |
+
+### Return Value {#return-value}
+
+True for success, or false.
+
+## Examples {#examples}
+
+```csharp
+PdfFileEditor fileEditor = new PdfFileEditor();
+Stream instream = new FileStream("input.pdf", FileMode.Open, FileAccess.Read);
+Stream stream1 = new FileStream("file1.pdf", FileMode.Open, FileAccess.Read);
+Stream stream2 = new FileStream("file2.pdf", FileMode.Open, FileAccess.Read);
+Stream outstream = new FileStream("outfile.pdf", FileMode.Create, FileAccess.Write);
+fileEditor.Append(instream, new Stream[] { stream1, stream2}, 3, 5, outstream);
+```
+
+### See Also {#see-also}
+
+* class [PdfFileEditor](../)
+* namespace [Aspose.Pdf.Facades](../../../aspose.pdf.facades/)
+* assembly [Aspose.PDF](../../../)
+
+---
+
+## Append(string, string[], int, int, string) {#append_3}
+
+Appends pages, which are chosen from portFiles documents. The result document includes firstInputFile and all portFiles documents pages in the range startPage to endPage.
+
+```csharp
+public bool Append(string inputFile, string[] portFiles, int startPage, int endPage, 
+    string outputFile)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| inputFile | String | Input Pdf file. |
+| portFiles | String[] | Documents to copy pages from. |
+| startPage | Int32 | Page starts in portFiles documents. |
+| endPage | Int32 | Page ends in portFiles documents . |
+| outputFile | String | Output Pdf document. |
+
+### Return Value {#return-value-1}
+
+True if operation was succeeded.
+
+## Examples {#examples-1}
+
+```csharp
+PdfFileEditor fileEditor = new PdfFileEditor();
+fileEditor.Append("input.pdf", new string[] { "file1.pdf", "file2.pdf"}, 3, 5, "outfile.pdf");
+```
+
+### See Also {#see-also-1}
+
+* class [PdfFileEditor](../)
+* namespace [Aspose.Pdf.Facades](../../../aspose.pdf.facades/)
+* assembly [Aspose.PDF](../../../)
+
+---
+
+## Append(string, string, int, int, string) {#append_2}
+
+Appends pages, which are chosen from portFile within the range from startPage to endPage, in portFile at the end of firstInputFile.
+
+```csharp
+public bool Append(string inputFile, string portFile, int startPage, int endPage, string outputFile)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| inputFile | String | Input Pdf file. |
+| portFile | String | Pages from Pdf file. |
+| startPage | Int32 | Page starts in portFile. |
+| endPage | Int32 | Page ends in portFile. |
+| outputFile | String | Output Pdf document. |
+
+### Return Value {#return-value-2}
+
+True if operation was succeeded.
+
+## Examples {#examples-2}
+
+```csharp
+PdfFileEditor fileEditor = new PdfFileEditor();
+fileEditor.Append("input.pdf", "file1.pdf",  3, 5, "outfile.pdf");
+```
+
+### See Also {#see-also-2}
+
+* class [PdfFileEditor](../)
+* namespace [Aspose.Pdf.Facades](../../../aspose.pdf.facades/)
+* assembly [Aspose.PDF](../../../)
+
+---
+
+## Append(Stream, Stream, int, int, Stream) {#append}
+
+Appends pages,which are chosen from portStream within the range from startPage to endPage, in portStream at the end of firstInputStream.
+
+```csharp
+public bool Append(Stream inputStream, Stream portStream, int startPage, int endPage, 
+    Stream outputStream)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| inputStream | Stream | Input file Stream. |
+| portStream | Stream | Pages from Pdf file Stream. |
+| startPage | Int32 | Page starts in portFile Stream. |
+| endPage | Int32 | Page ends in portFile Stream. |
+| outputStream | Stream | Output Pdf file Stream. |
+
+### Return Value {#return-value-3}
+
+True for success, or false.
+
+## Examples {#examples-3}
+
+```csharp
+PdfFileEditor fileEditor = new PdfFileEditor();
+Stream instream = new FileStream("input.pdf", FileMode.Open, FileAccess.Read);
+Stream stream1 = new FileStream("file1.pdf", FileMode.Open, FileAccess.Read);
+Stream outstream = new FileStream("outfile.pdf", FileMode.Create, FileAccess.Write);
+fileEditor.Append(instream, stream1,  3, 5, "outfile.pdf");
+```
+
+### See Also {#see-also-3}
+
+* class [PdfFileEditor](../)
+* namespace [Aspose.Pdf.Facades](../../../aspose.pdf.facades/)
+* assembly [Aspose.PDF](../../../)

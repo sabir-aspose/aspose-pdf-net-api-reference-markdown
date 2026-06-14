@@ -1,0 +1,40 @@
+---
+title: "Class XmlLoadOptions"
+second_title: "Aspose.PDF for .NET API Reference"
+description: "Aspose.Pdf.XmlLoadOptions class. Represents options for loading/importing XML file into pdf document"
+type: docs
+url: "/net/aspose.pdf/xmlloadoptions/"
+source_url: "https://reference.aspose.com/pdf/net/aspose.pdf/xmlloadoptions/"
+generated_from: "online-reference"
+fetched_at: "2026-06-14T05:11:40+00:00"
+---
+## XmlLoadOptions class {#xmlloadoptions-class}
+
+Represents options for loading/importing XML file into pdf document.
+
+```csharp
+public class XmlLoadOptions : LoadOptions
+```
+
+## Constructors {#constructors}
+
+| Name | Description |
+| --- | --- |
+| [XmlLoadOptions](xmlloadoptions/#constructor)() | Creates `XmlLoadOptions` object without xsl data. |
+| [XmlLoadOptions](xmlloadoptions/#constructor_1)(Stream) | Creates `XmlLoadOptions` object with xsl data. |
+| [XmlLoadOptions](xmlloadoptions/#constructor_2)(string) | Creates `XmlLoadOptions` object with xsl data. |
+
+## Properties {#properties}
+
+| Name | Description |
+| --- | --- |
+| [DisableFontLicenseVerifications](../../aspose.pdf/loadoptions/disablefontlicenseverifications/) { get; set; } | Gets or sets flag to disable any license restrictions for all fonts while loading the file. When `true`, allows to execute operations with font that are prohibited by a license of this font, for example allows to embed a font into a PDF document even if license rules disable embedding for this font. By default `false`. |
+| [LoadFormat](../../aspose.pdf/loadoptions/loadformat/) { get; } | Represents file format which [`LoadOptions`](../loadoptions/) describes. |
+| [WarningHandler](../../aspose.pdf/loadoptions/warninghandler/) { get; set; } | Callback to handle any warnings generated. The WarningHandler returns ReturnAction enum item specifying either Continue or Abort. Continue is the default action and the Load operation continues, however the user may also return Abort in which case the Load operation should cease. |
+| [XslStream](../../aspose.pdf/xmlloadoptions/xslstream/) { get; } | Gets xsl data for converting xml into pdf document. |
+
+### See Also {#see-also}
+
+* class [LoadOptions](../loadoptions/)
+* namespace [Aspose.Pdf](../../aspose.pdf/)
+* assembly [Aspose.PDF](../../)

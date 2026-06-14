@@ -1,0 +1,108 @@
+---
+title: "SetColorStroke.SetColorStroke"
+second_title: "Aspose.PDF for .NET API Reference"
+description: "SetColorStroke constructor. Initializes operator"
+type: docs
+url: "/net/aspose.pdf.operators/setcolorstroke/setcolorstroke/"
+source_url: "https://reference.aspose.com/pdf/net/aspose.pdf.operators/setcolorstroke/setcolorstroke/"
+generated_from: "online-reference"
+fetched_at: "2026-06-14T04:36:41+00:00"
+---
+## SetColorStroke() {#constructor}
+
+Initializes operator.
+
+```csharp
+public SetColorStroke()
+```
+
+### See Also {#see-also}
+
+* class [SetColorStroke](../)
+* namespace [Aspose.Pdf.Operators](../../../aspose.pdf.operators/)
+* assembly [Aspose.PDF](../../../)
+
+---
+
+## SetColorStroke(double) {#constructor_1}
+
+Set color for stroking operators for DeviceGray, CalGray and Indexed color spaces.
+
+```csharp
+public SetColorStroke(double g)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| g | Double | Color value. |
+
+### See Also {#see-also-1}
+
+* class [SetColorStroke](../)
+* namespace [Aspose.Pdf.Operators](../../../aspose.pdf.operators/)
+* assembly [Aspose.PDF](../../../)
+
+---
+
+## SetColorStroke(double, double, double) {#constructor_2}
+
+Set color for stroking operator for DeviceRGB, CalRGB, and Lab color spaces
+
+```csharp
+public SetColorStroke(double r, double g, double b)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| r | Double | Red component. |
+| g | Double | Green component. |
+| b | Double | Blue component. |
+
+### See Also {#see-also-2}
+
+* class [SetColorStroke](../)
+* namespace [Aspose.Pdf.Operators](../../../aspose.pdf.operators/)
+* assembly [Aspose.PDF](../../../)
+
+---
+
+## SetColorStroke(double[]) {#constructor_4}
+
+Constructor which allows to set color components.
+
+```csharp
+public SetColorStroke(double[] color)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| color | Double[] | Array of color components. |
+
+### See Also {#see-also-3}
+
+* class [SetColorStroke](../)
+* namespace [Aspose.Pdf.Operators](../../../aspose.pdf.operators/)
+* assembly [Aspose.PDF](../../../)
+
+---
+
+## SetColorStroke(double, double, double, double) {#constructor_3}
+
+Set color for stroking operator for CMYK color space
+
+```csharp
+public SetColorStroke(double c, double m, double y, double k)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| c | Double | Cyan component. |
+| m | Double | Magenta component. |
+| y | Double | Yellow component. |
+| k | Double | Black component. |
+
+### See Also {#see-also-4}
+
+* class [SetColorStroke](../)
+* namespace [Aspose.Pdf.Operators](../../../aspose.pdf.operators/)
+* assembly [Aspose.PDF](../../../)

@@ -1,0 +1,101 @@
+---
+title: "PdfFileSecurity.EncryptFile"
+second_title: "Aspose.PDF for .NET API Reference"
+description: "PdfFileSecurity method. Encrypts Pdf file with userpassword and ownerpassword and sets the documents privileges to access. The user password and the owner password can be null or empty. The owner password will be replaced with a random string if the input owner password is null or empty. Throws exception if process failed"
+type: docs
+url: "/net/aspose.pdf.facades/pdffilesecurity/encryptfile/"
+source_url: "https://reference.aspose.com/pdf/net/aspose.pdf.facades/pdffilesecurity/encryptfile/"
+generated_from: "online-reference"
+fetched_at: "2026-06-14T04:17:25+00:00"
+---
+## EncryptFile(string, string, DocumentPrivilege, KeySize) {#encryptfile}
+
+Encrypts Pdf file with userpassword and ownerpassword and sets the document’s privileges to access. The user password and the owner password can be null or empty. The owner password will be replaced with a random string if the input owner password is null or empty. Throws exception if process failed.
+
+```csharp
+public bool EncryptFile(string userPassword, string ownerPassword, DocumentPrivilege privilege, 
+    KeySize keySize)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| userPassword | String | User password. |
+| ownerPassword | String | Owner password. |
+| privilege | DocumentPrivilege | Set privilege. |
+| keySize | KeySize | KeySize.x40 for 40 bits encryption, KeySize.x128 for 128 bits encryption and KeySize.x256 for 256 bits encryption. |
+
+### Return Value {#return-value}
+
+True for success.
+
+## Examples {#examples}
+
+```csharp
+[C#]
+string inFile = "D:\\input.pdf"; //The TestPath may be re-assigned.
+string outFile = "D:\\output.pdf"; //The TestPath may be re-assigned.	
+PdfFileSecurity fileSecurity = new PdfFileSecurity(inFile,outFile);		
+fileSecurity.EncryptFile("userpass", "ownerpass", DocumentPrivilege.Print, KeySize.x256);	
+
+[Visual Basic]
+Dim inFile As String = "D:\\input.pdf"  'The TestPath may be re-assigned.'
+Dim outFile As String = "D:\\output.pdf"   'The TestPath may be re-assigned.'
+Dim fileSecurity As PdfFileSecurity = New PdfFileSecurity(inFile,outFile) 
+fileSecurity.EncryptFile("userpass", "ownerpass", DocumentPrivilege.Print, KeySize.x256)
+```
+
+### See Also {#see-also}
+
+* class [DocumentPrivilege](../../documentprivilege/)
+* enum [KeySize](../../keysize/)
+* class [PdfFileSecurity](../)
+* namespace [Aspose.Pdf.Facades](../../../aspose.pdf.facades/)
+* assembly [Aspose.PDF](../../../)
+
+---
+
+## EncryptFile(string, string, DocumentPrivilege, KeySize, Algorithm) {#encryptfile_1}
+
+Encrypts Pdf file with userpassword and ownerpassword and sets the document’s privileges to access. The user password and the owner password can be null or empty. The owner password will be replaced with a random string if the input owner password is null or empty. There are 6 possible combinations of KeySize and Algorithm values. However (KeySize.x40, Algorithm.AES) and (KeySize.x256, Algorithm.RC4) are invalid and corresponding exception will be raised if kit encounters this combination. Throws an exception if process failed.
+
+```csharp
+public bool EncryptFile(string userPassword, string ownerPassword, DocumentPrivilege privilege, 
+    KeySize keySize, Algorithm cipher)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| userPassword | String | User password. |
+| ownerPassword | String | Owner password. |
+| privilege | DocumentPrivilege | Set privilege. |
+| keySize | KeySize | KeySize.x40 for 40 bits encryption, KeySize.x128 for 128 bits encryption and KeySize.x256 for 256 bits encryption. |
+| cipher | Algorithm | Algorithm.AES to encrypt using AES algorithm or Algorithm.RC4 for RC4 encryption. |
+
+### Return Value {#return-value-1}
+
+True for success.
+
+## Examples {#examples-1}
+
+```csharp
+[C#]
+string inFile = "D:\\input.pdf"; //The TestPath may be re-assigned.
+string outFile = "D:\\output.pdf"; //The TestPath may be re-assigned.	
+PdfFileSecurity fileSecurity = new PdfFileSecurity(inFile,outFile);		
+fileSecurity.EncryptFile("userpass","ownerpass",DocumentPrivilege.Print,KeySize.x256,Algorithm.AES);	
+
+[Visual Basic]
+Dim inFile As String = "D:\\input.pdf"  'The TestPath may be re-assigned.'
+Dim outFile As String = "D:\\output.pdf"   'The TestPath may be re-assigned.'
+Dim fileSecurity As PdfFileSecurity =  New PdfFileSecurity(inFile,outFile) 
+fileSecurity.EncryptFile("userpass","ownerpass",DocumentPrivilege.Print,KeySize.x256,Algorithm.AES)
+```
+
+### See Also {#see-also-1}
+
+* class [DocumentPrivilege](../../documentprivilege/)
+* enum [KeySize](../../keysize/)
+* enum [Algorithm](../../algorithm/)
+* class [PdfFileSecurity](../)
+* namespace [Aspose.Pdf.Facades](../../../aspose.pdf.facades/)
+* assembly [Aspose.PDF](../../../)

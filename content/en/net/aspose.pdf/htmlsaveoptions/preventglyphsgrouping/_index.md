@@ -1,0 +1,23 @@
+---
+title: "HtmlSaveOptions.PreventGlyphsGrouping"
+second_title: "Aspose.PDF for .NET API Reference"
+description: "HtmlSaveOptions property. This attribute switch on the mode when text glyphs will not be grouped into words and strings This mode allows to keep maximum precision during positioning of glyphs on the page and it can be used for conversion documents with music notes or glyphs that should be placed separately each other. This parameter will be applied to document only when the value of FixedLayout attribute is true"
+type: docs
+url: "/net/aspose.pdf/htmlsaveoptions/preventglyphsgrouping/"
+source_url: "https://reference.aspose.com/pdf/net/aspose.pdf/htmlsaveoptions/preventglyphsgrouping/"
+generated_from: "online-reference"
+fetched_at: "2026-06-14T04:58:09+00:00"
+---
+## HtmlSaveOptions.PreventGlyphsGrouping property {#htmlsaveoptionspreventglyphsgrouping-property}
+
+This attribute switch on the mode when text glyphs will not be grouped into words and strings This mode allows to keep maximum precision during positioning of glyphs on the page and it can be used for conversion documents with music notes or glyphs that should be placed separately each other. This parameter will be applied to document only when the value of FixedLayout attribute is true.
+
+```csharp
+public bool PreventGlyphsGrouping { get; set; }
+```
+
+### See Also {#see-also}
+
+* class [HtmlSaveOptions](../)
+* namespace [Aspose.Pdf](../../../aspose.pdf/)
+* assembly [Aspose.PDF](../../../)

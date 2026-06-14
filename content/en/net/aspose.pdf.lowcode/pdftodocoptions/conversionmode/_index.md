@@ -1,0 +1,30 @@
+---
+title: "PdfToDocOptions.ConversionMode"
+second_title: "Aspose.PDF for .NET API Reference"
+description: "PdfToDocOptions property. Allows to control how a PDF document is converted into a word processing document"
+type: docs
+url: "/net/aspose.pdf.lowcode/pdftodocoptions/conversionmode/"
+source_url: "https://reference.aspose.com/pdf/net/aspose.pdf.lowcode/pdftodocoptions/conversionmode/"
+generated_from: "online-reference"
+fetched_at: "2026-06-14T04:31:34+00:00"
+---
+## PdfToDocOptions.ConversionMode property {#pdftodocoptionsconversionmode-property}
+
+Allows to control how a PDF document is converted into a word processing document.
+
+```csharp
+public ConversionMode ConversionMode { get; set; }
+```
+
+## Remarks {#remarks}
+
+Use the TextBox mode when the resulting document is not going to be heavily edited further. Textboxes are easy to modify when there is not a lot to do.
+
+Use the Flow mode when the output document needs further editing. Paragraphs and text lines in the flow mode allow easy modification of text, but unsupported formatting objects will look worse than in the TextBox mode.
+
+### See Also {#see-also}
+
+* enum [ConversionMode](../../conversionmode/)
+* class [PdfToDocOptions](../)
+* namespace [Aspose.Pdf.LowCode](../../../aspose.pdf.lowcode/)
+* assembly [Aspose.PDF](../../../)

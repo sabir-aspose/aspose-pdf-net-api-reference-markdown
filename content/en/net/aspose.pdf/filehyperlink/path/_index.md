@@ -1,0 +1,23 @@
+---
+title: "FileHyperlink.Path"
+second_title: "Aspose.PDF for .NET API Reference"
+description: "FileHyperlink property. Gets or sets the path to file"
+type: docs
+url: "/net/aspose.pdf/filehyperlink/path/"
+source_url: "https://reference.aspose.com/pdf/net/aspose.pdf/filehyperlink/path/"
+generated_from: "online-reference"
+fetched_at: "2026-06-14T04:55:55+00:00"
+---
+## FileHyperlink.Path property {#filehyperlinkpath-property}
+
+Gets or sets the path to file.
+
+```csharp
+public string Path { get; set; }
+```
+
+### See Also {#see-also}
+
+* class [FileHyperlink](../)
+* namespace [Aspose.Pdf](../../../aspose.pdf/)
+* assembly [Aspose.PDF](../../../)

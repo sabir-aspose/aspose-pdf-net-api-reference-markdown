@@ -1,0 +1,23 @@
+---
+title: "ImageExtractorOptions.ImageExtractorOptions"
+second_title: "Aspose.PDF for .NET API Reference"
+description: "ImageExtractorOptions constructor. The default constructor"
+type: docs
+url: "/net/aspose.pdf.lowcode/imageextractoroptions/imageextractoroptions/"
+source_url: "https://reference.aspose.com/pdf/net/aspose.pdf.lowcode/imageextractoroptions/imageextractoroptions/"
+generated_from: "online-reference"
+fetched_at: "2026-06-14T04:30:20+00:00"
+---
+## ImageExtractorOptions constructor {#imageextractoroptions-constructor}
+
+The default constructor.
+
+```csharp
+public ImageExtractorOptions()
+```
+
+### See Also {#see-also}
+
+* class [ImageExtractorOptions](../)
+* namespace [Aspose.Pdf.LowCode](../../../aspose.pdf.lowcode/)
+* assembly [Aspose.PDF](../../../)

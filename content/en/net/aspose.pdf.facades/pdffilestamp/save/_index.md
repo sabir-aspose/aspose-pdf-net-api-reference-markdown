@@ -1,0 +1,47 @@
+---
+title: "PdfFileStamp.Save"
+second_title: "Aspose.PDF for .NET API Reference"
+description: "PdfFileStamp method. Saves result into specified file"
+type: docs
+url: "/net/aspose.pdf.facades/pdffilestamp/save/"
+source_url: "https://reference.aspose.com/pdf/net/aspose.pdf.facades/pdffilestamp/save/"
+generated_from: "online-reference"
+fetched_at: "2026-06-14T04:18:11+00:00"
+---
+## Save(string) {#save_1}
+
+Saves result into specified file.
+
+```csharp
+public override void Save(string destFile)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| destFile | String | Path to file where document will be saved. |
+
+### See Also {#see-also}
+
+* class [PdfFileStamp](../)
+* namespace [Aspose.Pdf.Facades](../../../aspose.pdf.facades/)
+* assembly [Aspose.PDF](../../../)
+
+---
+
+## Save(Stream) {#save}
+
+Saves document into specified stream.
+
+```csharp
+public override void Save(Stream destStream)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| destStream | Stream | Stream where document will be saved. |
+
+### See Also {#see-also-1}
+
+* class [PdfFileStamp](../)
+* namespace [Aspose.Pdf.Facades](../../../aspose.pdf.facades/)
+* assembly [Aspose.PDF](../../../)

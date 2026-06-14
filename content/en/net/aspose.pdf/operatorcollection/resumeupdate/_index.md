@@ -1,0 +1,43 @@
+---
+title: "OperatorCollection.ResumeUpdate"
+second_title: "Aspose.PDF for .NET API Reference"
+description: "OperatorCollection method. Resumes document update. Updates contents stream in case there are any pending changes. Marks all operators as changed if invalidate parameter is true"
+type: docs
+url: "/net/aspose.pdf/operatorcollection/resumeupdate/"
+source_url: "https://reference.aspose.com/pdf/net/aspose.pdf/operatorcollection/resumeupdate/"
+generated_from: "online-reference"
+fetched_at: "2026-06-14T05:02:12+00:00"
+---
+## ResumeUpdate(bool) {#resumeupdate_1}
+
+Resumes document update. Updates contents stream in case there are any pending changes. Marks all operators as “changed” if invalidate parameter is true.
+
+```csharp
+public void ResumeUpdate(bool updateAll)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| updateAll | Boolean | If true, all operators in the collection marked as updated. |
+
+### See Also {#see-also}
+
+* class [OperatorCollection](../)
+* namespace [Aspose.Pdf](../../../aspose.pdf/)
+* assembly [Aspose.PDF](../../../)
+
+---
+
+## ResumeUpdate() {#resumeupdate}
+
+Resumes document update. Updates contents stream in case there are any pending changes.
+
+```csharp
+public override void ResumeUpdate()
+```
+
+### See Also {#see-also-1}
+
+* class [OperatorCollection](../)
+* namespace [Aspose.Pdf](../../../aspose.pdf/)
+* assembly [Aspose.PDF](../../../)

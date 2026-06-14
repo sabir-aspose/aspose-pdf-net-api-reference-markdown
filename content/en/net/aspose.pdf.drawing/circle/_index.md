@@ -1,0 +1,45 @@
+---
+title: "Class Circle"
+second_title: "Aspose.PDF for .NET API Reference"
+description: "Aspose.Pdf.Drawing.Circle class. Represents circle"
+type: docs
+url: "/net/aspose.pdf.drawing/circle/"
+source_url: "https://reference.aspose.com/pdf/net/aspose.pdf.drawing/circle/"
+generated_from: "online-reference"
+fetched_at: "2026-06-14T04:10:49+00:00"
+---
+## Circle class {#circle-class}
+
+Represents circle.
+
+```csharp
+public sealed class Circle : Shape
+```
+
+## Constructors {#constructors}
+
+| Name | Description |
+| --- | --- |
+| [Circle](circle/)(float, float, float) | Initializes a new instance of the `Circle` class. |
+
+## Properties {#properties}
+
+| Name | Description |
+| --- | --- |
+| [GraphInfo](../../aspose.pdf.drawing/shape/graphinfo/) { get; set; } | Gets or sets a [`GraphInfo`](../shape/graphinfo/) object that indicates the graph info,such as color, line width,etc. |
+| [PosX](../../aspose.pdf.drawing/circle/posx/) { get; set; } | Gets or sets a float value that indicates the x-coordinate of the center of the circle. |
+| [PosY](../../aspose.pdf.drawing/circle/posy/) { get; set; } | Gets or sets a float value that indicates the y-coordinate of the center of the circle. |
+| [Radius](../../aspose.pdf.drawing/circle/radius/) { get; set; } | Gets or sets a float value that indicates the radius of the circle. |
+| [Text](../../aspose.pdf.drawing/shape/text/) { get; set; } | Gets or sets a text for shape |
+
+## Methods {#methods}
+
+| Name | Description |
+| --- | --- |
+| override [CheckBounds](../../aspose.pdf.drawing/circle/checkbounds/)(double, double) |  |
+
+### See Also {#see-also}
+
+* class [Shape](../shape/)
+* namespace [Aspose.Pdf.Drawing](../../aspose.pdf.drawing/)
+* assembly [Aspose.PDF](../../)

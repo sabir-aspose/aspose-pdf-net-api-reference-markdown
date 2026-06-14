@@ -1,0 +1,23 @@
+{
+  "authority": "https://reference.aspose.com/pdf/net/",
+  "generated_at": "2026-06-14T05:30:08+00:00",
+  "generator": "examples-rag-platform",
+  "platforms": {
+    "net": {
+      "content": "content/en/net",
+      "language": "en",
+      "manifest": "manifests/net.json",
+      "markdown_files": 6902,
+      "namespaces": 25,
+      "pages": 6911,
+      "partial_generated_files": 1,
+      "status": "partial",
+      "types_completed": 1086,
+      "types_discovered": 1087,
+      "types_failed": 1,
+      "types_selected": 1087
+    }
+  },
+  "product": "pdf",
+  "schema_version": 1
+}

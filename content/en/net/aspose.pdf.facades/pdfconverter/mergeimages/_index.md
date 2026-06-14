@@ -1,0 +1,38 @@
+---
+title: "PdfConverter.MergeImages"
+second_title: "Aspose.PDF for .NET API Reference"
+description: "PdfConverter method. Merges list of image streams as one image stream. Png/jpg/tiff outputs formats are supported in case of using non supported format output stream encoded as Jpeg by default"
+type: docs
+url: "/net/aspose.pdf.facades/pdfconverter/mergeimages/"
+source_url: "https://reference.aspose.com/pdf/net/aspose.pdf.facades/pdfconverter/mergeimages/"
+generated_from: "online-reference"
+fetched_at: "2026-06-14T04:15:37+00:00"
+---
+## PdfConverter.MergeImages method {#pdfconvertermergeimages-method}
+
+Merges list of image streams as one image stream. Png/jpg/tiff outputs formats are supported, in case of using non supported format output stream encoded as Jpeg by default.
+
+```csharp
+public static Stream MergeImages(List<Stream> inputImagesStreams, ImageFormat outputImageFormat, 
+    ImageMergeMode mergeMode, int? horizontal, int? vertical)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| inputImagesStreams | List`1 | The list of image streams to merge. |
+| outputImageFormat | ImageFormat | Image output format for merged stream. |
+| mergeMode | ImageMergeMode | Merge mode. Used for Png/Jpg formats. |
+| horizontal | Nullable`1 | Horizontal ratio to set canvas width for output image stream. Used for Png/Jpg formats with ImageMergeMode.Center only. |
+| vertical | Nullable`1 | Vertical ratio to set canvas height for output image stream. Used for Png/Jpg formats with ImageMergeMode.Center only. |
+
+### Return Value {#return-value}
+
+Image stream encoded as output image format.
+
+### See Also {#see-also}
+
+* enum [ImageFormat](../../../aspose.pdf.drawing/imageformat/)
+* enum [ImageMergeMode](../../imagemergemode/)
+* class [PdfConverter](../)
+* namespace [Aspose.Pdf.Facades](../../../aspose.pdf.facades/)
+* assembly [Aspose.PDF](../../../)
